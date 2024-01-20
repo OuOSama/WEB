@@ -59,3 +59,24 @@ body{
 select:focus,input:focus,button:focus{
     outline: 0;
 }
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        height: 80vh;
+    }
+    .currency select {
+        width: 30%; 
+        margin-bottom: 10px; 
+        
+    }
+    .currency input {
+        width: 70%; 
+        margin-bottom: 10px; 
+    }
+    .btn{
+        height: 45px;
+        width: 50%;
+        color: white;
+        background-color: yellowgreen;
+    }
+}
